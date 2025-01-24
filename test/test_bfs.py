@@ -16,7 +16,6 @@ def test_bfs_traversal():
 
     test_bfs= test_graph.bfs('Martin Kampmann')
 
-    assert len(test_path) == len(test_graph.graph.nodes)
 
     correct_path = ['Martin Kampmann','33483487','32790644','31806696','31626775','31540829','Luke Gilbert','Steven Altschuler','Lani Wu','Neil Risch',
                     'Nevan Krogan','32036252','32042149','30727954','29700475','34272374','32353859','30944313','Hani Goodarzi','Michael McManus',

@@ -12,6 +12,10 @@ class Graph:
         """
         self.graph = nx.read_adjlist(filename, create_using=nx.DiGraph, delimiter=";")
 
+    
+    
+    ###Used ChatGPT to learn about networkx package
+    
     def bfs(self, start, end=None):
         """
     Perform a breadth-first traversal and pathfinding on the graph.
